@@ -11,7 +11,7 @@ using namespace std;
 int main() {
     string filename;
     cout << "Enter the filename: ";
-    cin >> filename;
+    cin >> filename;                // file format doesnt matter but c++ could only read some formats, NOT xlsx
 
     ifstream file(filename);
 
@@ -28,6 +28,22 @@ int main() {
             words.push_back(word);  
         }
     }
+
+
+
+    //  for csv:
+    //     string cell;
+    //     vector<string> row;        
+        
+    //     while (getline(ss, cell, ',')) { // Split the line by comma 
+    //         row.push_back(cell);    // Add each value to the row vector
+    //     }
+
+    //     for (const string& word : row) {
+    //         cout << word << " ";
+    //     }
+    //     cout << endl;
+    // }
 
     file.close(); 
 
