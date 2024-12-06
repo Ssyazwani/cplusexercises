@@ -5,6 +5,9 @@
 #include <sstream>
 #include <vector>
 #include <string>
+#include <random>
+#include <algorithm>
+
 
 using namespace std;
 
@@ -53,7 +56,18 @@ int main() {
         cout << word << endl;
     }
 
-    //randomise the words to make them into a 7 word sentence
+
+    
+    default_random_engine generator;
+
+    shuffle(words.begin(), words.end(), generator);
+
+    
+  
+    cout << "Sentence:" << endl;
+    for (const string& word : words) {
+        cout << word << " ";
+    }
 
     return 0;
 }
