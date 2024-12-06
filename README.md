@@ -1,1 +1,3 @@
-Repo for exercises I do from CodeinGame
+Repo for exercises I do
+
+
