@@ -22,7 +22,7 @@ void peopleRand (string name, int x) {
     cout << "Name: " << name << ", Age: " << x << endl;
 }
 
-double Moneybank(double y, double x) {
+double Moneybank(double x, double y) {
     return (x - y);
 }
 
@@ -40,4 +40,6 @@ int main()
    cout << "\nYou would have " << Moneybank(x, y) << " left.";
    
 }
+
+
 
