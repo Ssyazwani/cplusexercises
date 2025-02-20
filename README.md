@@ -1,5 +1,5 @@
 ### Descriptions : 
-Collections of C++ mini exercises/projcets on different components for C++ 
+Collection of C++ mini exercises/projects on different components for C++ 
 *work in progress*
 
 1. Variables
