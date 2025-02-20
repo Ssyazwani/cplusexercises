@@ -1,5 +1,5 @@
 ### Descriptions : 
-Collections of C++ mini exercises/projcets on different components for C++ 
+Collection of C++ mini exercises/projects on different components for C++ 
 *work in progress*
 
 1. Variables
@@ -8,4 +8,5 @@ Collections of C++ mini exercises/projcets on different components for C++
 <br>*Exercises: functionsrecap.cpp,subnetprefixcalculator.cpp*</br>
 3. OOP
 <br>*Exercises: ooprecapp1.cpp , usingnfriendfunc.cpp*</br>
-
+4. Data Structures
+<br>*Exercises: testinglist.cpp*</br>
