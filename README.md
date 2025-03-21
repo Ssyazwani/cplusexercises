@@ -9,4 +9,4 @@ Collection of C++ mini exercises/projects on different components for C++
 3. OOP
 <br>*Exercises: ooprecapp1.cpp , usingnfriendfunc.cpp*</br>
 4. Data Structures
-<br>*Exercises: testinglist.cpp, testingaddvectors.cpp, testingqueue*</br>
+
