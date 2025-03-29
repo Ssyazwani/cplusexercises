@@ -21,6 +21,35 @@ int main() {
         cout << movie.first << " - Released in " << movie.second << endl;
     }
 
+    string newmovie;
+    int newyear;
+    
+    char addition;
+    do {
+        cout << "\nDo you want to add a new movie? (y/n): ";
+        cin >> addition;
+        cin.ignore(); 
+
+        if (addition == 'y' || addition == 'Y') {
+            cout << "Enter the movie title: ";
+            getline(cin, newmovie); 
+
+            cout << "Enter the release year: ";
+            cin >> newyear;
+            cin.ignore();  
+
+            movies[newmovie] = newyear; 
+            cout << "Movie \"" << newmovie << "\" added to the database.\n";
+        }
+    } while (addition == 'y' || addition == 'Y');
+    
+  
+    cout << "\nUpdated Japanese Movies Database:" << endl;
+    for (const auto& movie : movies) {
+        cout << movie.first << " - Released in " << movie.second << endl;
+    }
+
+
    
     string query;
     cout << "\nEnter a movie title to search for its release year: ";
