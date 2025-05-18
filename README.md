@@ -1,12 +1,11 @@
 ### Descriptions : 
-Collection of C++ mini exercises/projects on different components for C++ 
-*work in progress*
+Collection of C++ exercises/projects on different components for C++ 
 
-1. Variables
-<br>*Exercises: calcutor.cpp (is it a typo or it is just a good naming sense? okay it is a typo), dogyears.cpp,numberrandomizer.cpp,wordrandomizer.cpp,fib.cpp*</br>
-2. Functions
-<br>*Exercises: functionsrecap.cpp,subnetprefixcalculator.cpp*</br>
-3. OOP
-<br>*Exercises: ooprecapp1.cpp , usingnfriendfunc.cpp*</br>
-4. Data Structures
+
+1. forlearningandfun folder
+<br>*Mainly where the learning chap by chap with C++ exercises is*</br>
+2. ForMicrocontrollerMod
+<br>*C++ codes I have learnt from my ET0884 MicrocontrollerMod, using Mbed studio and STM32*</br>
+<br>*Codes would require some header codes (.h) files that are not here*</br>
+
 
