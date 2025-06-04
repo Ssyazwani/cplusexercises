@@ -1,4 +1,5 @@
 //Practice LabTest part 1: program STM32 to be able to light up 0b00000101 when pressed
+// PB_12 is active low ---> PB_12 == 0, means it has been pressed
 
 #undef __ARM_FP
 

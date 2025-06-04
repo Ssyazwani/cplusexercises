@@ -1,6 +1,7 @@
 // Practice Lab Test Part 3 
 // show on line 1 "Press 1", nothing changes if '1' is not pressed
 // when '1' is pressed, program will print Bye on second row and the program would stop
+// extra info : getkey() is active high --> if key != 1; means it has been pressed
 #undef __ARM_FP
 
 #include "mbed.h"
@@ -41,7 +42,7 @@ int main( )
 					outChar = Message2[i];
 					lcd_write_data(outChar)
 				}
-			} while(1); //stops the program after the "Bye" is printed
+			} while(1); //infinte loop since while(1) is always true, will freeze after the "Bye" is printed
 
 
 		}
